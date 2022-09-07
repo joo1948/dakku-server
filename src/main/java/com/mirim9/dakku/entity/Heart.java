@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor
-public class Heart extends BaseEntity {
+public class Heart extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long heartId;

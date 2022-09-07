@@ -13,7 +13,7 @@ import javax.validation.constraints.NotBlank;
 @Entity
 @Getter
 @NoArgsConstructor
-public class Member extends BaseTimeEntity {
+public class Member extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
